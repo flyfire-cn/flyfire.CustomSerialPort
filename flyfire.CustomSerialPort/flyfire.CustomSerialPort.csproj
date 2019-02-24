@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <RootNamespace>flyfire.IO.Ports</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>赫山老妖</Authors>
+    <Company>flyfire.cn</Company>
+    <Copyright>Apache License2.0</Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/flyfire-cn/flyfire.CustomSerialPort</PackageProjectUrl>
+    <PackageIconUrl>https://avatars1.githubusercontent.com/u/44192387?s=400&amp;u=894bb6ae3a01a9f48627cb844320239351a144a9&amp;v=4</PackageIconUrl>
+    <PackageReleaseNotes>一个增强的自定义串口类，实现协议无关的数据帧完整接收功能，支持跨平台使用
+https://github.com/flyfire-cn/flyfire.CustomSerialPort
+https://www.cnblogs.com/flyfire-cn</PackageReleaseNotes>
+    <Description>一个增强的自定义串口类，实现协议无关的数据帧完整接收功能，支持跨平台使用
+使用SerialPortStream基础类库
+https://github.com/jcurl/serialportstream
+https://www.cnblogs.com/flyfire-cn/p/10356991.html
+
+采用接收超时机制，两次通讯之间需有一定的间隔时间
+如间隔时间太短，则需要拆包
+Author:赫山老妖（flyfire.cn）
+https://github.com/flyfire-cn</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="licenses\License.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SerialPortStream" Version="2.2.0" />
+  </ItemGroup>
+</Project>

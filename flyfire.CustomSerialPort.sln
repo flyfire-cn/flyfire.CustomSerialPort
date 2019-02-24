@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flyfire.CustomSerialPort", "flyfire.CustomSerialPort\flyfire.CustomSerialPort.csproj", "{19633B73-6615-4DAD-9C03-72B9FF353606}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flyfire.HelloArm", "flyfire.HelloArm\flyfire.HelloArm.csproj", "{E80D9144-9739-4669-85C0-FCFFDE4CDBCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19633B73-6615-4DAD-9C03-72B9FF353606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19633B73-6615-4DAD-9C03-72B9FF353606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19633B73-6615-4DAD-9C03-72B9FF353606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19633B73-6615-4DAD-9C03-72B9FF353606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80D9144-9739-4669-85C0-FCFFDE4CDBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80D9144-9739-4669-85C0-FCFFDE4CDBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80D9144-9739-4669-85C0-FCFFDE4CDBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80D9144-9739-4669-85C0-FCFFDE4CDBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {589388D4-0834-4F8B-A638-7DC2149E0832}
+	EndGlobalSection
+EndGlobal

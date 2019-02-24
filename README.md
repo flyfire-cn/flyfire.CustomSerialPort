@@ -22,3 +22,13 @@ Author:赫山老妖（flyfire.cn）
 
 https://www.cnblogs.com/flyfire-cn
 
+
+##类库
+
+类库flyfire.CustomSerialPort已发布至：
+https://www.nuget.org/packages/flyfire.CustomSerialPort
+
+VS中可直接通过NuGet程序包管理器下载使用。
+
+如果这个项目对您有所帮助，请随手star一下呵。
+
