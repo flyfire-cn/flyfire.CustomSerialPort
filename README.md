@@ -30,5 +30,5 @@ https://www.nuget.org/packages/flyfire.CustomSerialPort
 
 VS中可直接通过NuGet程序包管理器下载使用。
 
-如果这个项目对您有所帮助，请随手star一下呵。
+如果这个项目对您有所帮助，请不要吝啬您赞赏，随手给个star呵。
 
