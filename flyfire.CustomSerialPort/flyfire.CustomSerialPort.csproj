@@ -13,6 +13,7 @@
     <PackageProjectUrl>https://github.com/flyfire-cn/flyfire.CustomSerialPort</PackageProjectUrl>
     <PackageIconUrl>https://avatars1.githubusercontent.com/u/44192387?s=400&amp;u=894bb6ae3a01a9f48627cb844320239351a144a9&amp;v=4</PackageIconUrl>
     <PackageReleaseNotes>一个增强的自定义串口类，实现协议无关的数据帧完整接收功能，支持跨平台使用
+SerialPortStream采用2.1.2,避免和NModbus库引用冲突
 https://github.com/flyfire-cn/flyfire.CustomSerialPort
 https://www.cnblogs.com/flyfire-cn</PackageReleaseNotes>
     <Description>一个增强的自定义串口类，实现协议无关的数据帧完整接收功能，支持跨平台使用
@@ -24,11 +25,12 @@ https://www.cnblogs.com/flyfire-cn/p/10356991.html
 如间隔时间太短，则需要拆包
 Author:赫山老妖（flyfire.cn）
 https://github.com/flyfire-cn</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Include="licenses\License.txt" Pack="true" PackagePath="" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SerialPortStream" Version="2.2.0" />
+    <PackageReference Include="SerialPortStream" Version="2.1.2" />
   </ItemGroup>
 </Project>
