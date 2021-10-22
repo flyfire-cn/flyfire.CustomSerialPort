@@ -18,7 +18,7 @@ https://github.com/flyfire-cn/flyfire.CustomSerialPort
 https://www.cnblogs.com/flyfire-cn</PackageReleaseNotes>
     <Description>一个增强的自定义串口类，实现协议无关的数据帧完整接收功能，支持跨平台
 
-3.x版本移除SerailPortStream类库，使用
+3.x版本移除SerailPortStream类库
 使用SerialPort基础类库
 
 https://www.cnblogs.com/flyfire-cn/p/10356991.html
@@ -28,9 +28,9 @@ https://www.cnblogs.com/flyfire-cn/p/10356991.html
 如间隔时间太短，则需要拆包
 Author:赫山老妖（flyfire.cn）
 https://github.com/flyfire-cn</Description>
-    <Version>3.0.1</Version>
-    <AssemblyVersion>3.0.0.1</AssemblyVersion>
-    <FileVersion>3.0.0.1</FileVersion>
+    <Version>3.0.2</Version>
+    <AssemblyVersion>3.0.0.2</AssemblyVersion>
+    <FileVersion>3.0.0.2</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Include="licenses\License.txt" Pack="true" PackagePath="" />
