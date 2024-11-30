@@ -1,6 +1,6 @@
-﻿using RJCP.IO.Ports;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.IO.Ports;
 using System.Threading;
 
 namespace flyfire.IO.Ports
@@ -20,7 +20,7 @@ namespace flyfire.IO.Ports
     {
         public event CustomSerialPortReceivedEventHandle ReceivedEvent;
 
-        protected SerialPortStream sp = null;
+        protected SerialPort sp = null;
 
         public string PortName
         {
@@ -118,7 +118,7 @@ namespace flyfire.IO.Ports
 
         public CustomSerialPort(string portName, int baudRate = 115200, Parity parity = Parity.None, int databits = 8, StopBits stopBits = StopBits.One)
         {
-            sp = new SerialPortStream
+            sp = new SerialPort
             {
                 PortName = portName,
                 BaudRate = baudRate,
@@ -134,7 +134,7 @@ namespace flyfire.IO.Ports
         public static string[] GetPortNames()
         {
             List<string> serailports = new List<string>();
-            serailports.AddRange(SerialPortStream.GetPortNames());
+            serailports.AddRange(SerialPort.GetPortNames());
             serailports.Sort();
             return serailports.ToArray();
         }
